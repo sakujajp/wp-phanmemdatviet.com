@@ -1,2 +1,8 @@
-# wp-phanmemdatviet.com
-wordpress phanmemdatviet.com
+# ninjaautopost.com
+# ninjamarketingonline.com
+# ninjamarketingonline.com
+# phanmemquangcaofacebook.net
+# phanmemquangcaofacebook.net
+# facebookninja.vn
+# phanmemquangcaoviet.com
+# phanmemdatviet.com
