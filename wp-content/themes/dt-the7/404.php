@@ -43,8 +43,8 @@ get_header();
 					wp_reset_postdata();
 				}
 			} else {
-				echo '<h1 class="entry-title">' . __( 'Oops! That page can&rsquo;t be found.', 'the7mk2' ) . '</h1>';
-				echo '<p>' . __( 'It looks like nothing was found at this location. Try using the search box below:', 'the7mk2' ) . '</p>';
+				echo '<h1 class="entry-title">' . __( 'Rất tiếc! không thể tìm thấy trang bạn yêu cầu.', 'the7mk2' ) . '</h1>';
+				echo '<p>' . __( 'Có vẻ như không có gì được tìm thấy tại vị trí này. Hãy thử sử dụng hộp tìm kiếm bên dưới:', 'the7mk2' ) . '</p>';
 				get_search_form();
 			}
 			?>

@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article id="post-0" class="post no-results not-found">
-	<h1 class="entry-title"><?php _e( 'Nothing Found', 'the7mk2' ); ?></h1>
+	<h1 class="entry-title"><?php _e( 'Không tìm thấy', 'the7mk2' ); ?></h1>
 
 	<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 		<?php
@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 		?>
 		<p><?php echo $publish_new_post_text; ?></p>
 	<?php elseif ( is_search() ) : ?>
-		<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'the7mk2' ); ?></p>
+		<p><?php _e( 'Xin lỗi, nhưng không có gì phù hợp với cụm từ tìm kiếm của bạn. Vui lòng thử lại với một số từ khóa khác nhau.', 'the7mk2' ); ?></p>
 		<?php get_search_form(); ?>
 	<?php else : ?>
 		<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'the7mk2' ); ?></p>
